@@ -51,6 +51,7 @@ class DoBForm extends React.Component {
         clearInterval(this.timerID);
     }
 
+    // TODO: update this so it doesn't reset the form
     tick() {
         this.setState({
             date: new Date()
