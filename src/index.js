@@ -13,9 +13,9 @@ function DaysCalc(props) {
     const date1 = props.date;
     const date2 = props.dateOfBirth;
     const daysAlive = calculateDays(date1.getDay(), date1.getMonth(), date1.getFullYear(), getDay(date2), getMonth(date2), getYear(date2));
-    const hoursAlive = daysAlive * 24;
-    const minsAlive = hoursAlive * 60;
-    const secsAlive = minsAlive * 60;
+    const hoursAlive = daysAlive * 24 + date1.getHours();
+    const minsAlive = hoursAlive * 60 + date1.getMinutes();
+    const secsAlive = minsAlive * 60 + date1.getSeconds();
     return (
         <div>
             <h2>Equivalent to: {daysAlive} days</h2>
