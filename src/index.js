@@ -31,7 +31,7 @@ class DoBForm extends React.Component {
         super(props);
         this.state = {
             dateOfBirth: null,
-            date: {date: new Date()},
+            date: new Date(),
         };
         this.handleChange = this.handleChange.bind(this);
     }
@@ -112,8 +112,8 @@ function countLeapYearsBefore(year, month){
 }
 
 function calculateDays(day1, month1, year1, day2, month2, year2) {
+    //TODO: this seems to be about a month out - fix
     const dayMonths = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-
 
     let total1 = year1 * 365 + day1;
     for (let i = 0; i < month1 - 1; i++) {
