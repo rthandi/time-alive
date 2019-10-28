@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/time-alive/static/css/main.34de6062.chunk.css",
+    "main.js": "/time-alive/static/js/main.bea77214.chunk.js",
+    "main.js.map": "/time-alive/static/js/main.bea77214.chunk.js.map",
+    "runtime~main.js": "/time-alive/static/js/runtime~main.d1e50e99.js",
+    "runtime~main.js.map": "/time-alive/static/js/runtime~main.d1e50e99.js.map",
+    "static/js/2.5c4e487f.chunk.js": "/time-alive/static/js/2.5c4e487f.chunk.js",
+    "static/js/2.5c4e487f.chunk.js.map": "/time-alive/static/js/2.5c4e487f.chunk.js.map",
+    "index.html": "/time-alive/index.html",
+    "precache-manifest.0fb18629fba2135c506514f93df15a4e.js": "/time-alive/precache-manifest.0fb18629fba2135c506514f93df15a4e.js",
+    "service-worker.js": "/time-alive/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/time-alive/static/css/main.34de6062.chunk.css.map"
+  }
+}
